@@ -1,0 +1,493 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: rgba(255, 248, 238, 1);
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+  height: 35px;
+  background-color: rgba(204, 51, 51, 1);
+}
+.top-left {
+  display: flex;
+  padding-left: 50px;
+  gap: 30px;
+}
+.oclock-div {
+  display: flex;
+  gap: 10px;
+  padding: 10px 10px 10px 10px;
+}
+.oclock {
+}
+.oclock img {
+  width: 20px;
+  height: 20px;
+}
+
+.phone-div {
+  display: flex;
+  gap: 10px;
+  padding: 10px 10px 10px 10px;
+}
+.phone {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.phone img {
+  width: 20px;
+  height: 20px;
+}
+.phone-number p {
+  color: rgba(255, 248, 238, 1);
+}
+.oclock-info p {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 248, 238, 1);
+}
+.registr {
+  cursor: pointer;
+  margin-top: 10px;
+  padding-right: 50px;
+}
+.registr h1 {
+  text-align: right;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: rgba(255, 248, 238, 1);
+}
+.top-middle {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 248, 238, 1);
+  padding: 10px 10px 10px 10px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: rgba(42, 67, 93, 1);
+  cursor: pointer;
+}
+/*niye asagiya color tetbiq eden zaman reng deyismir*/
+nav ul li a {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(42, 67, 93, 1);
+}
+.cart-div {
+  display: flex;
+  gap: 10px;
+}
+.cart {
+  width: 60px;
+  height: 61px;
+  cursor: pointer;
+}
+.cart img {
+  width: 60px;
+  height: 61px;
+}
+.delivery {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.delivery h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(42, 67, 93, 1);
+}
+.delivery p {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(42, 67, 93, 1);
+}
+
+.delivery-img img {
+  width: 35px;
+  height: 35px;
+}
+.button {
+  width: 90px;
+  height: 35px;
+
+  border-radius: 10px;
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: rgba(204, 51, 51, 1);
+  color: rgba(255, 248, 238, 1);
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.first {
+  max-width: 1440px;
+  width: 100%;
+}
+.foto {
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: rgba(255, 248, 238, 1);
+}
+.foto img {
+  max-width: 1440px;
+  width: 100%;
+  height: 280px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.foto-info h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.foto-info p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 248, 238, 1);
+}
+.second,
+.third,
+.fourth {
+  max-width: 1440px;
+  width: 100%;
+}
+.love h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(42, 67, 93, 1);
+  margin-top: 30px;
+  text-align: center;
+}
+.btn {
+  width: 400px;
+  height: 120px;
+  border-radius: 20px;
+  background-color: rgba(255, 248, 238, 1);
+  border: 10px solid rgba(204, 51, 51, 1);
+  color: rgba(42, 67, 93, 1);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+.go {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(204, 51, 51, 1);
+  color: rgba(255, 248, 238, 1);
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: center;
+}
+/* middle div*/
+
+.middle-div {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  display: flex;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.middle-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* cardlar baslayir*/
+.card-div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 588px;
+  width: 100%;
+  height: 170px;
+  border: 2px solid rgb(250, 245, 245);
+  border-radius: 20px;
+  gap: 10px;
+  margin-top: 30px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.25);
+}
+.card-img img {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 20px;
+}
+.card {
+  margin-top: 10px;
+  padding: 10px 10px 10px 10px;
+}
+.card h1 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(42, 67, 93, 1);
+}
+.card p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(42, 67, 93, 1);
+}
+.card h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(42, 67, 93, 1);
+}
+.food-menyu {
+  max-width: 588px;
+  width: 100%;
+  height: 570px;
+  margin-top: 30px;
+}
+.food-menyu img {
+  width: 100%;
+  height: 570px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+.left-card {
+  display: flex;
+  flex-direction: column;
+}
+.right-card {
+  display: flex;
+  flex-direction: column;
+}
+/*leftcard-rightcard*/
+.leftcard-rightcard {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+/* fourth section start*/
+.discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1214px;
+  width: 100%;
+
+  margin-top: 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1214px;
+  width: 100%;
+  height: 323px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 6px 5px rgba(0, 0, 0, 0.25);
+}
+
+.discount-div {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.discount-left {
+  display: flex;
+  flex-direction: column;
+}
+.discount-right {
+  display: flex;
+  flex-direction: column;
+}
+.branch h1 {
+  text-align: center;
+
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  margin-top: 30px;
+}
+/*footer start*/
+footer {
+  background-color: rgba(204, 51, 51, 1);
+  margin-top: 20px;
+}
+.footer-top {
+  max-width: 1438px;
+  width: 100%;
+  height: 198px;
+}
+.footerleft-info h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  color: rgba(255, 248, 238, 1);
+}
+.footerleft-info p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.foottime img {
+  width: 20px;
+  height: 20px;
+}
+.foottime p {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.foottime-div {
+  display: flex;
+}
+.footphone img {
+  width: 20px;
+  height: 20px;
+}
+.footphone-info {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.footphone-div {
+  display: flex;
+}
+.foottime-phone {
+  display: flex;
+  gap: 20px;
+}
+span {
+  color: rgba(75, 255, 60, 1);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+.footer-left,
+.footer-middle,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px 20px 20px 20px;
+}
+.footer-bottom {
+  max-width: 1438px;
+  width: 100%;
+  height: 100px;
+
+  background-color: rgba(42, 67, 93, 1);
+}
+.footer-bottom p {
+  color: rgba(255, 248, 238, 1);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+}
